@@ -5,7 +5,7 @@ function validate() {
     console.log("success");
 
     window.location.replace(
-      "https://www.notion.so/Students-2-Speak-Summer-Debate-Program-Homework-and-Class-Materials-Message-Board-4c15dcbe1d064d3896a10d208f1e2a63"
+      "https://sites.google.com/view/students-2-speak/home?authuser=0"
     );
   } else {
     console.log("error");
