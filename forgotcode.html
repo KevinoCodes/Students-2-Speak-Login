@@ -21,31 +21,28 @@
   <body class="align-items-center">
     <div class="container align-items-center">
         <br>
-        <br>
-        <br>
-        <h1>Thanks for enrolling in our 2021 Summer Debate Program</h1>
-        <br>
-        <div class="row">
-            <button type="button" class="btn btn-primary btn-lg btn-block" onclick="document.location='Classroom.html'">Google Classroom Link (Homework + Recorded Lessons)</button>       
-        </div>
-        <br>
-        <div class="row">
-            <button type="button" class="btn btn-secondary btn-lg btn-block" onclick="Powerpoints()">Lesson Powerpoints</button>
-        </div>
-        <br>
-        <div class="row">
-            <button type="button" class="btn btn-secondary btn-lg btn-block" onclick="Resources()">More Debate Resources (Tournaments + Format Guide)</button>
-        </div>
+        <h1>Recover Your Classcode</h1>
+        <h5>Plase enter your child's First and Last Name; we will match it with our database of registered students and return your classcode. Don't worry about capitalization, it's case-insensitive :)</h5>
         <hr>
-        <div class="row">
-          <h5 class="justify-content-center">Email students2speak@gmail.com for more information, or speak to a teacher during class time for debate inquiries</h5>
+        <div class="input-group mb-3">
+            <input class="form-control" type="text" id="name1" placeholder="First Name" aria-label="default input example">
+            <br>
+            <input class="form-control" type="text" id="name2" placeholder="Last Name" aria-label="default input example">
         </div>
         <div class="row">
-          <div>
-            <button type="button" class="btn btn-warning" onclick="document.location='index.html'"><i class="bi bi-caret-left"></i>Logout</button>
-          </div>
+            <div>
+                <button type="button" class="btn btn-primary btn-lg" onclick="Recovercode()">Recover Classcode</button>
+            </div>
         </div>
-
+        <br>
+        <div class="row">
+            <h5 id="codealert"></h5>
+        </div>
+        <div class="row">
+            <div>
+              <button type="button" class="btn btn-warning" onclick="document.location='index.html'"><i class="bi bi-chevron-left"></i>Back</button>
+            </div>
+        </div>
     </div>
     <script src="js/login.js"></script>
   </body>
