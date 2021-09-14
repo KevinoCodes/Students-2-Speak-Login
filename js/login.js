@@ -5,8 +5,8 @@ function validate() {
     console.log("success");
 
     window.location.href = "classLink.html";
-
-   if (classcode === "21FDP") {
+    
+  } else if (classcode === "21FDP"){
     console.log("success");
 
     window.location.href = "classLink.html";
