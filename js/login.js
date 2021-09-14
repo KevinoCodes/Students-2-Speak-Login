@@ -1,12 +1,7 @@
 function validate() {
   var classcode = document.getElementById("codeinput").value;
   console.log(classcode);
-  if (classcode === "21SDP") {
-    console.log("success");
-
-    window.location.href = "classLink.html";
-    
-  } else if (classcode === "21FDP"){
+  if (classcode === "21FDP") {
     console.log("success");
 
     window.location.href = "classLink.html";
