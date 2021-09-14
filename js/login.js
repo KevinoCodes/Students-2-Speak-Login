@@ -5,6 +5,12 @@ function validate() {
     console.log("success");
 
     window.location.href = "classLink.html";
+
+   if (classcode === "21FDP") {
+    console.log("success");
+
+    window.location.href = "classLink.html";
+
   } else {
     console.log("error");
     window.alert("Incorrect Class Code, please check case sensitivity");
