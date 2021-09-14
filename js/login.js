@@ -12,6 +12,10 @@ function validate() {
   }
 }
 
+function Zoom{
+  window.open("https://zoom.us/j/93203862665?pwd=NEl2Rm5vak1xbzF0SzFPMTZyb3pWUT09")
+}
+
 function Powerpoints() {
   window.open("https://drive.google.com/drive/u/0/folders/1zxtNbSOIEtTbmmXiGesTkrq7erwZVPQe")
 }
