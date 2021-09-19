@@ -16,6 +16,10 @@ function Zoom(){
   window.open("https://zoom.us/j/93203862665?pwd=NEl2Rm5vak1xbzF0SzFPMTZyb3pWUT09")
 }
 
+function Schedule(){
+  window.open("https://docs.google.com/spreadsheets/d/1xA3XkKLfFaIUY3hy64_VkyXWO3wtSUY1h-GR63zWfnw/edit?usp=sharing")
+}
+
 function Powerpoints() {
   window.open("https://drive.google.com/drive/u/0/folders/1zxtNbSOIEtTbmmXiGesTkrq7erwZVPQe")
 }
