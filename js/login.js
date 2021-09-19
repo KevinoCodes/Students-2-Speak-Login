@@ -3,9 +3,7 @@ function validate() {
   console.log(classcode);
   if (classcode === "21FDP") {
     console.log("success");
-
     window.location.href = "classLink.html";
-
   } else {
     console.log("error");
     window.alert("Incorrect Class Code, please check case sensitivity");
@@ -53,6 +51,9 @@ function Recovercode(FirstName, LastName) {
   for (var i=0; i<arrayLength; i++) {
     if (FullName == students[i].toUpperCase()) {
       document.getElementById("codealert").innerHTML = `<h5>The Class Code is 21SDP<h5>`
+    }
+    else {
+      window.alert("We don't have your child listed in our records, please email kevin.han@ucc.on.ca for assistance")
     }
     console.log(students[i]);
   }
