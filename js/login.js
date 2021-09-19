@@ -12,7 +12,7 @@ function validate() {
   }
 }
 
-function Zoom{
+function Zoom(){
   window.open("https://zoom.us/j/93203862665?pwd=NEl2Rm5vak1xbzF0SzFPMTZyb3pWUT09")
 }
 
